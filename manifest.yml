@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: spider
+  host: spider
+  disk_quota: 1024M
+  services:
+  - IBM Watson Machine Learning-30
+  - availability-monitoring-auto
